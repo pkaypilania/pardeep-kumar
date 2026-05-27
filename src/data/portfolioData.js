@@ -130,7 +130,7 @@ export const portfolioData = {
       id: 1,
       name: "Neend - Sleep & Meditate",
       category: "Wellness",
-      image: "/assets/neend.png",
+      image: "assets/neend.png",
       links: {
         playStore: "https://play.google.com/store/apps/details?id=com.neend",
         appStore: "https://apps.apple.com/in/app/neend-relax-sleep-meditate/id6444904431"
@@ -144,7 +144,7 @@ export const portfolioData = {
       id: 2,
       name: "BottlePOS",
       category: "Fintech",
-      image: "/assets/bottlepos.png",
+      image: "assets/bottlepos.png",
       links: {
         website: "https://bottlepos.com",
         paxStore: "https://paxstore.us"
@@ -158,7 +158,7 @@ export const portfolioData = {
       id: 3,
       name: "QYTENITE",
       category: "AI/ML",
-      image: "/assets/qytenite.png",
+      image: "assets/qytenite.png",
       links: {
         github: "https://github.com/pkaypilania/SnoringDemo"
       },
@@ -171,7 +171,7 @@ export const portfolioData = {
       id: 4,
       name: "Neemo",
       category: "AR/Media",
-      image: "/assets/neemo.png",
+      image: "assets/neemo.png",
       links: {
         playStore: "https://play.google.com/store/apps/details?id=com.neemo.dom",
         appStore: "https://apps.apple.com/us/app/neemo/id6480101826"
@@ -185,7 +185,7 @@ export const portfolioData = {
       id: 5,
       name: "OjasEnergyWatch",
       category: "IoT",
-      image: "/assets/ojas.png",
+      image: "assets/ojas.png",
       links: {
         playStore: "https://play.google.com/store/apps/details?id=com.crystalpower.app",
         appStore: "https://apps.apple.com/in/app/ojasenergywatch/id1546644155"
@@ -199,7 +199,7 @@ export const portfolioData = {
       id: 6,
       name: "Sheen Magazine",
       category: "Media",
-      image: "/assets/sheen.png",
+      image: "assets/sheen.png",
       links: {
         playStore: "https://play.google.com/store/apps/details?id=com.magazine.sheen",
         appStore: "https://apps.apple.com/in/app/sheen-magazine/id1623812336"
@@ -213,7 +213,7 @@ export const portfolioData = {
       id: 7,
       name: "BottleZoo",
       category: "Fintech",
-      image: "/assets/bottlezoo.png",
+      image: "assets/bottlezoo.png",
       links: {
         playStore: "https://play.google.com/store/apps/details?id=com.app.bottlezoo",
         appStore: "https://apps.apple.com/in/app/bottlezoo/id1585803701"
@@ -227,7 +227,7 @@ export const portfolioData = {
       id: 8,
       name: "RFID Integration Module",
       category: "IoT",
-      image: "/assets/rfid.png",
+      image: "assets/rfid.png",
       links: {
         github: "https://github.com/pkaypilania/RFIDDemo"
       },
