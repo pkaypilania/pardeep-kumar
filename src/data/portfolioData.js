@@ -1,12 +1,12 @@
 export const portfolioData = {
   personal: {
-    name: "Pardeep Kumar",
-    title: "Senior React Native Developer",
+    name: "Pardeep Kumar (Pardeep Pilania)",
+    title: "Senior / Sr. React Native Developer",
     location: "Mohali, Punjab, India",
     email: "pilaniapkay@gmail.com",
     phone: "+91 8570007739",
     github: "github.com/pkaypilania",
-    bio: "Senior React Native Developer with 5+ years and 30+ shipped applications across fintech, AI, hardware, wellness, and media domains. Deep expertise in bridging React Native with native platforms via custom native modules, TurboModules, and JSI. Shipped apps with 500,000+ combined downloads, integrated PAX POS payments, built on-device ML audio pipelines, and implemented AR video filters."
+    bio: "Senior React Native Developer (often known as Pardeep Pilania) with 5+ years of experience and 30+ shipped applications across fintech, AI, hardware, wellness, and media domains. Deeply specialized as a Sr. React Native Developer in bridging cross-platform mobile apps with native platforms via custom native modules, TurboModules, and JSI. Shipped apps with 500,000+ combined downloads, integrated PAX POS payments, built on-device ML audio pipelines, and implemented AR video filters."
   },
   
   highlights: [
