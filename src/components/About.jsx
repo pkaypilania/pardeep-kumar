@@ -1,10 +1,7 @@
 import React from 'react';
-import { GraduationCap, Award, TrendingUp } from 'lucide-react';
-import { portfolioData } from '../data/portfolioData';
+import { Award, TrendingUp } from 'lucide-react';
 
 export const About = () => {
-  const { personal, education } = portfolioData;
-
   const achievements = [
     {
       icon: TrendingUp,
@@ -15,11 +12,6 @@ export const About = () => {
       icon: Award,
       title: "Employee of the Month",
       description: "Beyond Root Technologies - Recognized for consistent excellence"
-    },
-    {
-      icon: GraduationCap,
-      title: "Pursuing BCA",
-      description: "Chandigarh University - UGC Recognised Online Program"
     }
   ];
 
@@ -122,31 +114,6 @@ export const About = () => {
                   </div>
                 </div>
               ))}
-
-              {/* Education card */}
-              <div className="p-8 bg-gradient-to-br from-slate-900/80 to-slate-900/50 backdrop-blur-xl border border-white/10 rounded-2xl">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="p-4 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl">
-                    <GraduationCap className="w-8 h-8 text-purple-400" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-white mb-2">Education</h3>
-                  </div>
-                </div>
-                <div className="pl-16">
-                  {education.map((edu, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="text-lg font-semibold text-cyan-400">{edu.degree}</div>
-                      <div className="text-slate-300">{edu.institution}</div>
-                      <div className="text-sm text-slate-400">{edu.mode}</div>
-                      <div className="text-sm text-slate-500">{edu.duration}</div>
-                      <div className="inline-block px-3 py-1 bg-green-500/20 border border-green-500/30 rounded-full text-green-400 text-xs font-semibold mt-2">
-                        {edu.status}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
 

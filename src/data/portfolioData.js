@@ -236,15 +236,5 @@ export const portfolioData = {
       tech: ["Kotlin", "RFID SDK", "TurboModules", "React Native", "Android"],
       highlights: ["TurboModule architecture for near-zero latency", "Shaped as reusable SDK for Android development teams", "High-frequency warehouse tags parsing"]
     }
-  ],
-
-  education: [
-    {
-      degree: "Bachelor of Computer Applications (BCA)",
-      institution: "Chandigarh University",
-      mode: "Online Mode (UGC Recognised)",
-      duration: "2025 - Present",
-      status: "Pursuing"
-    }
   ]
 };
